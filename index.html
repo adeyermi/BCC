@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css&js/style.css">
+    <title>Mathew Levi, BBC</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <span class="head">Welcome to Mathew's Group </span><br>
+        <span class="of">Of</span>
+        <div class="church">Believers Community Church,<br> Abidiodan</div>
+
+        <form id="randomForm">
+            <label for="name">Input Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="week">Question Week:</label><br>
+            <select id="week" name="week" required>
+            <option value="">Select Week</option>
+            <option value="1">Week 1</option>
+            <option value="2">Week 2</option>
+            <option value="3">Week 3</option>
+            <option value="4">Week 4</option>
+            <option value="5">Week 5</option>
+            <option value="6">Week 6</option>
+            <option value="7">Week 7</option>
+            <option value="8">Week 8</option>
+            <option value="9">Week 9</option>
+            <option value="10">Week 10</option>
+            <option value="11">Week 11</option>
+        </select><br><br>
+            <label for="type">Question Type:</label><br>
+            <select id="type" name="type" required>
+            <option value="">Select Type</option>
+            <option value="Daily Devotion">Daily Devotion</option>
+            <option value="Weekly Reading">Weekly Reading</option>
+        </select><br><br>
+            <button type="button" onclick="generateRandomNumber()">Generate Question Number</button>
+        </form>
+        <div id="result" style="margin-top: 20px;"></div>
+    </div>
+
+    <script src="/css&js/script.js" defer>
+    </script>
+</body>
+
+</html>
