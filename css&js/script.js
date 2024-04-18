@@ -11,7 +11,7 @@
      }
 
      if (name && week && type) {
-         var resultText = "Hello " + name + ", </br> Answer Question: " + randomNumber + " from week " + week + " of " + type + ". </br>Please  send screenshot to the group";
+         var resultText = "Hello " + name +"; </br> Answer Question: " + randomNumber + " from week " + week + " of " + type + ". </br>Please  send screenshot to the group";
 
          document.getElementById("result").innerHTML = resultText;
          exportResultAsPdfOrJpg(resultText);
