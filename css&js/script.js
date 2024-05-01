@@ -115,8 +115,6 @@ document.getElementById('generateBtn').addEventListener('click', function() {
             "The salvation that the suffering and death of Jesus brought is for men, not angels. Explain why.",
             "Why did Christ die, and what was His death meant to achieve",
             "Use your life as a believer to differentiate between “dead in” and “dead with”.",
-            "Use your life as a believer to differentiate between “dead in” and “dead with”.",
-            "Differentiate between “dead with” and “dead to”",
             "Believers were dead	sin while unbelievers are dead	sin",
             "In terms of purpose, how is Christ’s death peculiar, as compared with other people’s death?",
             "How did Jesus terminate our relationship with sin?",
