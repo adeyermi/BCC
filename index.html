@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-
-
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +21,7 @@
             <select id="week" name="week" required>
             <option value="">Select Week</option>
             <option value="1">Week 1</option>
-       <option value="2">Week 2</option>
+            <option value="2">Week 2</option>
             <option value="3">Week 3</option>
             <option value="4">Week 4</option>
             <option value="5">Week 5</option>
@@ -34,16 +31,16 @@
             <option value="9">Week 9</option>
             <option value="10">Week 10</option>
             <option value="11">Week 11</option>
-        </select><br><br>
-<!--          <label for="type">Question Type:</label><br>
+        </select>
+            <!-- <label for="type">Question Type:</label><br>
             <select id="type" name="type" required>
             <option value="">Select Type</option>
             <option value="Daily Devotion">Daily Devotion</option>
             <option value="Weekly Reading">Weekly Reading</option>
-        </select><br><br>  -->
-            <button type="button" onclick="generateRandomNumber()">Generate Question Number</button>
+        </select><br><br> -->
         </form>
-        <div id="result" style="margin-top: 20px;"></div>
+        <button id="generateBtn">Generate Random Question</button>
+        <div id="output"></div>
     </div>
 
     <script src="css&js/script.js" defer>
