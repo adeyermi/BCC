@@ -4,6 +4,7 @@
  //     var type = document.getElementById("type").value;
  //     var randomNumber;
 
+
  //     if (type === "Daily Devotion") {
  //         randomNumber = Math.floor(Math.random() * 16) + 15; // Generates random number between 15 and 30 for daily
  //     } else if (type === "Weekly Reading") {
